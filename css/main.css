@@ -1,0 +1,10 @@
+.card-deck{
+    margin: 20px 0;
+}
+.card{
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
