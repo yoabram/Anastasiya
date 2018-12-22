@@ -17,18 +17,18 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Анастасия</a>
+    <a class="navbar-brand" href="#">РђРЅР°СЃС‚Р°СЃРёСЏ</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">О магазине <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Рћ РјР°РіР°Р·РёРЅРµ <span class="sr-only">(current)</span></a>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Найти" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="РќР°Р№С‚Рё" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">РџРѕРёСЃРє</button>
         </form>
     </div>
 </nav>
@@ -37,38 +37,38 @@
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Белый бюстгальтер</h5>
-            <p class="card-text">Белый бюстгальтер для сна New Look</p>
-            <p class="price text-danger">2500 Рублей </p>
+            <h5 class="card-title">Р‘РµР»С‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ</h5>
+            <p class="card-text">Р‘РµР»С‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ РґР»СЏ СЃРЅР° New Look</p>
+            <p class="price text-danger">2500 Р СѓР±Р»РµР№ </p>
             <a href="#" class="btn btn-primary buy" data-price="2500"
-               data-product="Белый бюстгальтер">Купить</a>
+               data-product="Р‘РµР»С‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Черный бюстгальтер</h5>
-            <p class="card-text">Черный бюстгальтер для сна New Look</p>
-            <p class="price text-danger">2500 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="2500" data-product="Черныйый бюстгальтер">Купить</a>
+            <h5 class="card-title">Р§РµСЂРЅС‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ</h5>
+            <p class="card-text">Р§РµСЂРЅС‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ РґР»СЏ СЃРЅР° New Look</p>
+            <p class="price text-danger">2500 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="2500" data-product="Р§РµСЂРЅС‹Р№С‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Набор носков</h5>
-            <p class="card-text">3 пары белых спортивных носков Polo Ralph Lauren</p>
-            <p class="price text-danger">1190 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="Набор носков">Купить</a>
+            <h5 class="card-title">РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ</h5>
+            <p class="card-text">3 РїР°СЂС‹ Р±РµР»С‹С… СЃРїРѕСЂС‚РёРІРЅС‹С… РЅРѕСЃРєРѕРІ Polo Ralph Lauren</p>
+            <p class="price text-danger">1190 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Набор носков</h5>
-            <p class="card-text">3 пары черных спортивных носков Polo Ralph Lauren</p>
-            <p class="price text-danger">1190 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="Набор носков">Купить</a>
+            <h5 class="card-title">РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ</h5>
+            <p class="card-text">3 РїР°СЂС‹ С‡РµСЂРЅС‹С… СЃРїРѕСЂС‚РёРІРЅС‹С… РЅРѕСЃРєРѕРІ Polo Ralph Lauren</p>
+            <p class="price text-danger">1190 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
 </div>
@@ -76,37 +76,37 @@
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Красный бюстгальтер</h5>
-            <p class="card-text">Белый бюстгальтер New Look</p>
-            <p class="price text-danger">2700 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="2500" data-product="Красный бюстгальтер">Купить</a>
+            <h5 class="card-title">РљСЂР°СЃРЅС‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ</h5>
+            <p class="card-text">Р‘РµР»С‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ New Look</p>
+            <p class="price text-danger">2700 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="2500" data-product="РљСЂР°СЃРЅС‹Р№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Синий бюстгальтер</h5>
-            <p class="card-text">Синий бюстгальтер New Look</p>
-            <p class="price text-danger">2700 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="2700" data-product="Синий бюстгальтер">Купить</a>
+            <h5 class="card-title">РЎРёРЅРёР№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ</h5>
+            <p class="card-text">РЎРёРЅРёР№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ New Look</p>
+            <p class="price text-danger">2700 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="2700" data-product="РЎРёРЅРёР№ Р±СЋСЃС‚РіР°Р»СЊС‚РµСЂ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Набор носков</h5>
-            <p class="card-text">5 пары белых спортивных носков Polo Ralph Lauren</p>
-            <p class="price text-danger">2000 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="Набор носков">Купить</a>
+            <h5 class="card-title">РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ</h5>
+            <p class="card-text">5 РїР°СЂС‹ Р±РµР»С‹С… СЃРїРѕСЂС‚РёРІРЅС‹С… РЅРѕСЃРєРѕРІ Polo Ralph Lauren</p>
+            <p class="price text-danger">2000 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="https://via.placeholder.com/200/" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Набор носков</h5>
-            <p class="card-text">3 пары синих спортивных носков Polo Ralph Lauren</p>
-            <p class="price text-danger">1190 Рублей </p>
-            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="Набор носков">Купить</a>
+            <h5 class="card-title">РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ</h5>
+            <p class="card-text">3 РїР°СЂС‹ СЃРёРЅРёС… СЃРїРѕСЂС‚РёРІРЅС‹С… РЅРѕСЃРєРѕРІ Polo Ralph Lauren</p>
+            <p class="price text-danger">1190 Р СѓР±Р»РµР№ </p>
+            <a href="#" class="btn btn-primary buy" data-price="1190" data-product="РќР°Р±РѕСЂ РЅРѕСЃРєРѕРІ">РљСѓРїРёС‚СЊ</a>
         </div>
     </div>
 </div>
@@ -115,7 +115,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Оформление заказа</h5>
+                <h5 class="modal-title">РћС„РѕСЂРјР»РµРЅРёРµ Р·Р°РєР°Р·Р°</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -123,44 +123,44 @@
             <div class="modal-body">
                 <form id="buy" method="post">
                     <div class="form-group">
-                        <label for="name">Имя</label>
+                        <label for="name">РРјСЏ</label>
                         <input type="text" name="name" class="form-control" id="name"
-                               placeholder="Ваше имя" required>
+                               placeholder="Р’Р°С€Рµ РёРјСЏ" required>
                     </div>
                     <div class="form-group">
-                        <label for="fam">Фамилия</label>
+                        <label for="fam">Р¤Р°РјРёР»РёСЏ</label>
                         <input type="text" name="fam" class="form-control" id="fam"
-                               placeholder="Ваша фамилия" required>
+                               placeholder="Р’Р°С€Р° С„Р°РјРёР»РёСЏ" required>
                     </div>
                     <div class="form-group">
-                        <label for="number">Телефон</label>
+                        <label for="number">РўРµР»РµС„РѕРЅ</label>
                         <input type="text" name="number" class="form-control" id="number"
-                               placeholder="Телефон" required>
+                               placeholder="РўРµР»РµС„РѕРЅ" required>
                     </div>
                     <div class="form-group">
-                        <label for="">Адрес электронной почты</label>
+                        <label for="">РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹</label>
                         <input type="email" name="email" class="form-control" id="email"
                                placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <label for="">Почтовый индекс</label>
+                        <label for="">РџРѕС‡С‚РѕРІС‹Р№ РёРЅРґРµРєСЃ</label>
                         <input type="text" name="in" class="form-control" id="in"
-                               placeholder="Индекс" required>
+                               placeholder="РРЅРґРµРєСЃ" required>
                     </div>
                     <div class="form-group">
-                        <label for="">Адрес доставки</label>
+                        <label for="">РђРґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё</label>
                         <input type="text" name="ad" class="form-control" id="ad"
-                               placeholder="Адрес" required>
+                               placeholder="РђРґСЂРµСЃ" required>
                     </div>
                     <div class="form-group">
-                        <label for="product">Выбранный товар</label>
+                        <label for="product">Р’С‹Р±СЂР°РЅРЅС‹Р№ С‚РѕРІР°СЂ</label>
                         <input type="text" name="product" class="form-control" id="product" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="price">Цена</label>
+                        <label for="price">Р¦РµРЅР°</label>
                         <input type="text" name="price" class="form-control" id="price" readonly>
                     </div>
-                    <button type="submit" class="btn btn-primary th">Оформить заказ</button>
+                    <button type="submit" class="btn btn-primary th">РћС„РѕСЂРјРёС‚СЊ Р·Р°РєР°Р·</button>
                 </form>
             </div>
         </div>
@@ -170,13 +170,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Спасибо!</h5>
+                <h5 class="modal-title">РЎРїР°СЃРёР±Рѕ!</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>Ваш заказ успешно оформлен. В течение часа с вами сважется наш оператор для подверждения заказа</p>
+                <p>Р’Р°С€ Р·Р°РєР°Р· СѓСЃРїРµС€РЅРѕ РѕС„РѕСЂРјР»РµРЅ. Р’ С‚РµС‡РµРЅРёРµ С‡Р°СЃР° СЃ РІР°РјРё СЃРІР°Р¶РµС‚СЃСЏ РЅР°С€ РѕРїРµСЂР°С‚РѕСЂ РґР»СЏ РїРѕРґРІРµСЂР¶РґРµРЅРёСЏ Р·Р°РєР°Р·Р°</p>
             </div>
         </div>
     </div>
