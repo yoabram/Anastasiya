@@ -10,4 +10,4 @@ $db["path"] = ltrim($db["path"], "/");
 //    'user' =>'root',
 //    'pass'=>''
 //);
-R::setup($db['dsn'], $db['user'],$db['pass']);
+//R::setup($db['dsn'], $db['user'],$db['pass']);

@@ -10,7 +10,7 @@ if(!empty($_POST)){
 }
 
 function setPaymentData($order_id){
-    if (isset($_SESSION['payment'])) unset($_SESSION['payment']);
+    if (isset($_SESSION['d97ld1in8osbcu'])) unset($_SESSION['payment']);
 $_SESSION['payment']['id']=$order_id;
     $_SESSION['payment']['price']=$_POST['price'];
 };
