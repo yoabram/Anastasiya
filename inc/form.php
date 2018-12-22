@@ -15,8 +15,8 @@
 <?php if(!empty($_SESSION['payment'])): ?>
     <form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">
         <input type="hidden" name="ik_co_id" value="5c1e731a3d1eaf91418b4567" />
-        <input type="hidden" name="ik_pm_no" value="ID_4233" />
-        <input type="hidden" name="ik_am" value="100.00" />
+        <input type="hidden" name="ik_pm_no" value="<?=$_SESSION['payment']['id'];?>"/>
+        <input type="hidden" name="ik_am" value="<?=$_SESSION['payment']['price'];?>" />
         <input type="hidden" name="ik_cur" value="RUB" />
         <input type="hidden" name="ik_desc" value="Event Description" />
         <input type="submit" value="Pay">
