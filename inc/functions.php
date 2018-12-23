@@ -27,10 +27,11 @@ function load ($data){
 //    return $data;
     $db = pg_connect("host=ec2-54-247-125-116.eu-west-1.compute.amazonaws.com port=5432 dbname=d97ld1in8osbcu user=mstptdpcpiqzsf password=9eedaf81651c7f2ef284c3835908b4104ebe24e132dae104b4c593a1ae2fd7ce sslmode=require");
     $table_name="orders";
-    pg_copy_to($db, $table_name, $data);
     if ($db==false) {
         echo "govno!";
     }
+    //pg_copy_to($db, $table_name, $data);
+
 }
 function save ($table, $data){
     $tbl = R::dispense($table);
