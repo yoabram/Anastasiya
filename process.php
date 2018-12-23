@@ -22,5 +22,5 @@ if ($dataSet['ik_co_id'] != $ik_id||$dataSet['ik_inv_st'] != 'success'||
 $dataSet['ik_am']!=$order->price||$sign!=$_POST['ik_sign']){
     die;
 }
-$order->status ='1';
+$order->status ='True';
 R::store($order);
