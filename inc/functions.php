@@ -6,7 +6,7 @@ if(!empty($_POST)){
     $data = load($data);
     //$order_id = save('orders', $data);
     //setPaymentData($order_id);
-    header('Location: inc/form.php');
+    //header('Location: inc/form.php');
     debug($data);
 }
 function setPaymentData($order_id){
