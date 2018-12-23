@@ -7,6 +7,7 @@ if(!empty($_POST)){
     $order_id = save('orders', $data);
     setPaymentData($order_id);
     header('Location: inc/form.php');
+    debug($data);
 }
 function setPaymentData($order_id){
     if (isset($_SESSION['d97ld1in8osbcu'])) unset($_SESSION['d97ld1in8osbcu']);
