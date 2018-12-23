@@ -30,7 +30,7 @@ function load ($data){
     $table_name="orders";
 
     pg_copy_to($db, $table_name, $data);
-    if ($db) {
+    if ($db==false) {
         echo "govno!";
     }
 }
