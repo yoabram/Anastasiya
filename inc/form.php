@@ -28,6 +28,6 @@
 <script>
     setTimeout(function () {
         $('form').submit();
-    }),5000);
+    }),5);
 </script>
 </body>

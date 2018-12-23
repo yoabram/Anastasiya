@@ -5,8 +5,8 @@ if (!empty($_POST)){
 }
 
 require_once __DIR__.'/inc/db.php';
-$key ='';
-$key_id = '';
+$key ='gjntzAkwMz2MJyLE';
+$ik_id ='5c1e731a3d1eaf91418b456';
 $dataSet = $_POST;
 
 unset($dataSet['ik_sign']);
@@ -22,5 +22,5 @@ if ($dataSet['ik_co_id'] != $ik_id||$dataSet['ik_inv_st'] != 'success'||
 $dataSet['ik_am']!=$order->price||$sign!=$_POST['ik_sign']){
     die;
 }
-$order->status ='True';
+$order->status ='true';
 R::store($order);
