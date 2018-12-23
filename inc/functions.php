@@ -5,7 +5,7 @@ if(!empty($_POST)){
     require_once 'db.php';
     $data = load($data);
     $order_id = save('orders', $data);
-    //setPaymentData($order_id);
+    setPaymentData($order_id);
     //header('Location: inc/form.php');
     debug($data);
 }
