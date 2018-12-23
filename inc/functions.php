@@ -3,9 +3,10 @@ session_start();
 $data = array('name' =>'','fam' =>'','number' =>'', 'email' =>'', 'product' =>'', 'price' =>'',);
 if(!empty($_POST)){
     $data = load($data);
-    save($db,'orders', $data);
-    setPaymentData($db,'orders', $order_id);
+    $order_id = save('orders', $data);
+    setPaymentData($order_id);
     header('Location: inc/form.php');
+    $order_id = save("orders",$data);
 }
 
 function setPaymentData($order_id){
@@ -25,18 +26,15 @@ function load ($data){
         }
     }
     return $data;
-
-
     //pg_copy_to($db, $table_name, $data);
 
 }
-function save ($db, $table, $data){
-//    $tbl = R::dispense($table);
-//    foreach ($data as $k => $v){
-//        $tbl->$k = $v;
-//    }
-// return R::store($tbl);
-    pg_copy_to($db, $table, $data);
+function save ($table, $data){
+    $tbl = R::dispense($table);
+    foreach ($data as $k => $v){
+        $tbl->$k = $v;
+    }
+ return R::store($tbl);
 }
 function debug($data){
     echo '<pre>'. print_r($data, true).'</pre>';
