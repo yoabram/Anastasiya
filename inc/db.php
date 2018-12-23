@@ -1,6 +1,10 @@
 <?php
 //
-//require_once 'rb.php';
+require_once 'rb.php';
+$db = pg_connect("host=ec2-54-247-125-116.eu-west-1.compute.amazonaws.com port=5432 dbname=d97ld1in8osbcu user=mstptdpcpiqzsf password=9eedaf81651c7f2ef284c3835908b4104ebe24e132dae104b4c593a1ae2fd7ce sslmode=require");
+if ($db==false) {
+    echo "govno!";
+}
 ////$dbconn = pg_connect("dbname=d97ld1in8osbcu");
 //$db = parse_url(getenv("postgres://mstptdpcpiqzsf:9eedaf81651c7f2ef284c3835908b4104ebe24e132dae104b4c593a1ae2fd7ce@ec2-54-247-125-116.eu-west-1.compute.amazonaws.com:5432/d97ld1in8osbcu
 //"));
