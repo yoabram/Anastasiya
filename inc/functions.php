@@ -15,6 +15,7 @@ function setPaymentData($order_id){
     if (isset($_SESSION['d97ld1in8osbcu'])) unset($_SESSION['d97ld1in8osbcu']);
     $_SESSION['d97ld1in8osbcu']['id']=$order_id;
     $_SESSION['d97ld1in8osbcu']['price']=$_POST['price'];
+
 };
 
 function load ($data){
