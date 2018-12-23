@@ -1,3 +1,4 @@
+<?php
 session_start();
 $data = array('name' =>'','fam' =>'','number' =>'', 'email' =>'', 'product' =>'', 'price' =>'',);
 if(!empty($_POST)){
