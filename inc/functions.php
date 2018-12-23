@@ -4,15 +4,15 @@ $data = array('name' =>'','fam' =>'','number' =>'', 'email' =>'', 'product' =>''
 if(!empty($_POST)){
     $data = load($data);
     save($db,'orders', $data);
-    //setPaymentData($order_id);
+    setPaymentData();
     header('Location: inc/form.php');
 }
 
-//function setPaymentData($order_id){
-//    if (isset($_SESSION['d97ld1in8osbcu'])) unset($_SESSION['d97ld1in8osbcu']);
-//$_SESSION['d97ld1in8osbcu']['id']=$order_id;
-//    $_SESSION['orders']['price']=$_POST['price'];
-//};
+function setPaymentData(){
+    if (isset($_SESSION['d97ld1in8osbcu'])) unset($_SESSION['d97ld1in8osbcu']);
+$_SESSION['d97ld1in8osbcu']['id']=$order_id;
+    $_SESSION['orders']['price']=$_POST['price'];
+};
 
 /**
  * @param $data
