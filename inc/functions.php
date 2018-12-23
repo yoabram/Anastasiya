@@ -29,6 +29,7 @@ function load ($data){
 function save ($db, $data){
     $query ="INSERT INTO orders (\"name\", \"fam\", \"number\", \"email\", \"product\", \"price\") VALUES ($data)";
     pg_insert($db, 'orders',$data );
+    pg_close($db);
 //    $tbl = R::dispense($table);
 //    foreach ($data as $k => $v){
 //        $tbl->$k = $v;
