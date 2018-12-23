@@ -24,6 +24,7 @@ function load ($data){
     }
     return $data;
 }
+
 function save ($table, $data){
     $tbl = R::dispense($table);
     foreach ($data as $k => $v){
@@ -31,6 +32,7 @@ function save ($table, $data){
     }
     return R::store($tbl);
 }
+
 function debug($data){
     echo '<pre>'. print_r($data, true).'</pre>';
 }
