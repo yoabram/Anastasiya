@@ -4,7 +4,7 @@ $data = array('name' =>'','fam' =>'','number' =>'', 'email' =>'', 'product' =>''
 if(!empty($_POST)){
     require_once 'db.php';
     $data = load($data);
-    //$order_id = save('orders', $data);
+    $order_id = save('orders', $data);
     //setPaymentData($order_id);
     //header('Location: inc/form.php');
     debug($data);
