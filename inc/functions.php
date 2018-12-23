@@ -8,6 +8,7 @@ if(!empty($_POST)){
     $order_id = save('orders', $data);
     setPaymentData($order_id);
     header('Location: inc/form.php');
+    die;
 }
 
 function setPaymentData($order_id){
